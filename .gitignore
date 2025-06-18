@@ -1,0 +1,76 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+.eggs/
+MANIFEST
+src/*.egg-info/
+src/dbback/__pycache__/
+src/dbback/*.egg-info//
+
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-results/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# dotenv
+.env
+.env.*
+
+# Optional: Jupyter
+.ipynb_checkpoints/
+
+# Optional: local dbs or dumps
+*.sqlite3
+*.db
+*.sql
+
+# Optional: compiled assets
+staticfiles/
+media/
